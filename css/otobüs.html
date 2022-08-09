@@ -1,0 +1,225 @@
+<html>
+  <head>
+    <title>minübüs</title>
+    <style type="text/css">
+      .otobus {
+        width: 400px;
+        height: 600px;
+        margin: 45px auto;
+      }
+      .anten {
+        width: 100px;
+        height: 2px;
+        background: #000;
+        margin: 100px 250px 0 250px;
+        transform: rotate(290deg);
+      }
+      .solayna {
+        width: 39px;
+        height: 25px;
+        background: #c9f;
+        border-top: 1px solid #000;
+        border-left: 1px solid #000;
+        border-bottom: 1px solid #000;
+        border-radius: 5px 0 0 5px;
+        margin: 240px 0;
+        float: left;
+      }
+      .cam {
+        width: 310px;
+        height: 230px;
+        border: 1px solid #000;
+        border-radius: 15px 15px 0 0;
+        float: left;
+        margin: 45px 0 0 0;
+      }
+      .sagayna {
+        width: 39px;
+        height: 25px;
+        background: #c9f;
+        border-top: 1px solid #000;
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000;
+        border-radius: 0px 5px 5px 0px;
+        margin: 240px 0 10px 0;
+        float: left;
+      }
+      .kaporta {
+        width: 310px;
+        height: 120px;
+        background: #c9f;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000;
+        border-radius: 0px 0px 10px 10px;
+        float: left;
+      }
+      .sollastik {
+        width: 50px;
+        min-height: 40px;
+        background: #000;
+        border-radius: 0 0 5px 5px;
+        float: left;
+        margin: 0px 0 0 10px;
+      }
+      .sağlastik {
+        width: 50px;
+        min-height: 40px;
+        background: #000;
+        border-radius: 0 0 5px 5px;
+        float: left;
+        margin: 0px 0 0 190px;
+      }
+      .içayna {
+        width: 70px;
+        height: 20px;
+        border: 1px solid #000;
+        background: #ccc;
+        border-radius: 5px;
+        margin: 30px auto 0 auto;
+      }
+      .sağkoltuk {
+        width: 120px;
+        height: 120px;
+        background: #90f;
+        border-radius: 10px 10px 0 0;
+        margin: 58px 13px 0 37px;
+        float: right;
+      }
+      .solkoltuk {
+        width: 120px;
+        height: 120px;
+        background: #90f;
+        border-radius: 10px 10px 0 0;
+        margin: 58px 0px 0 20px;
+        float: right;
+      }
+      .solsilecek {
+        width: 110px;
+        height: 3px;
+        background: #000;
+        margin: 118px 0 0 20px;
+      }
+      .dreksiyon {
+        width: 60px;
+        height: 30px;
+        border-left: 8px solid #000;
+        border-right: 8px solid #000;
+        border-top: 8px solid #000;
+        border-radius: 40px 40px 0 0;
+        margin: 90px 0 0 20px;
+      }
+      .sağsilecek {
+        width: 110px;
+        height: 3px;
+        background: #000;
+        margin: -10px 0 0 -10px;
+      }
+      .solfar {
+        width: 50px;
+        height: 50px;
+        background: #ff9;
+        border-radius: 25px;
+        margin: 30px 0px 0px 20px;
+        box-shadow: 5px 5px 15px #f7d3ac, -5px -5px 15px #f7d3ac;
+        float: left;
+      }
+      .sağfar {
+        width: 50px;
+        height: 50px;
+        background: #ff9;
+        border-radius: 25px;
+        margin: 30px 0px 0px 12px;
+        box-shadow: 5px 5px 15px #f7d3ac, -5px -5px 15px #f7d3ac;
+        float: left;
+      }
+      .ızgaralar {
+        width: 150px;
+        height: 100px;
+        float: left;
+        margin: 10px 0 0 12px;
+      }
+      .ızgara1 {
+        width: 70px;
+        height: 3px;
+        background: #444;
+        margin: 25px auto 0 auto;
+      }
+      .ızgara2 {
+        width: 80px;
+        height: 3px;
+        background: #444;
+        margin: 5px auto 0 auto;
+      }
+      .ızgara3 {
+        width: 90px;
+        height: 3px;
+        background: #444;
+        margin: 5px auto 0 auto;
+      }
+      .ızgara4 {
+        width: 100px;
+        height: 3px;
+        background: #444;
+        margin: 5px auto 0 auto;
+      }
+      .plaka {
+        width: 120px;
+        height: 20px;
+        background: #fff;
+        border: 1px solid #000;
+        margin: 25px auto 0 auto;
+      }
+      .plakasol {
+        width: 15px;
+        height: 15px;
+        background: #05f;
+        float: left;
+        font: 10px tahoma;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0 0 0;
+      }
+      .plakasağ {
+        width: 105px;
+        height: 20px;
+        float: left;
+        text-align: center;
+        font: bold 14px tahoma;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="otobus">
+      <div class="anten"></div>
+      <div class="solayna"></div>
+      <div class="cam">
+        <div class="içayna"></div>
+        <div class="sağkoltuk">
+          <div class="dreksiyon"></div>
+          <div class="sağsilecek"></div>
+        </div>
+        <div class="solkoltuk">
+          <div class="solsilecek"></div>
+        </div>
+      </div>
+      <div class="sagayna"></div>
+      <div class="kaporta">
+        <div class="solfar"></div>
+        <div class="ızgaralar">
+          <div class="ızgara1"></div>
+          <div class="ızgara2"></div>
+          <div class="ızgara3"></div>
+          <div class="ızgara4"></div>
+          <div class="plaka">
+            <div class="plakasol">Tr</div>
+            <div class="plaksağ">31 hty 1967</div>
+          </div>
+        </div>
+        <div class="sağfar"></div>
+      </div>
+      <div class="sollastik"></div>
+      <div class="sağlastik"></div>
+    </div>
+  </body>
+</html>

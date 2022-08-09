@@ -1,0 +1,285 @@
+/***** RESET *****/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /*font-size: 100%;
+	vertical-align: baseline;*/
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+/***** RESET *****/
+
+.hersey {
+    width: 760px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.menu {
+    width: 400px;
+    height: 50px;
+    margin: 0;
+}
+
+.ust {
+    width: 760px;
+    height: 100px;
+    background: url(images/indir.jpg);
+    padding: 50px 0 0 0;
+}
+
+.ortasol {
+    width: 445px;
+    height: 302px;
+    float: left;
+    float: 12px tahoma;
+    color: 999;
+    padding: 20px 0 0 10px;
+}
+
+.ortasag {
+    width: 285px;
+    height: 322px;
+    float: left;
+    margin: 20px 0 0 0;
+    float: 12px tahoma;
+    color: 999;
+}
+
+.altsol {
+    width: 435px;
+    height: 68px;
+    float: left;
+    font: 11px tahoma;
+    color: #ccc;
+    border-top: 1px solid #ccc;
+    padding: 30px 0 0 0;
+}
+
+.altsag {
+    width: 325px;
+    height: 68px;
+    float: left;
+    border-top: 1px solid #ccc;
+    padding: 30px 0 0 0;
+    font: 11px tahoma;
+    color: #ccc;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    width: 75px;
+    height: 40px;
+    padding: 10px 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu ul li#abaut a {
+    background: greenyellow;
+    color: purple;
+    font: 15px bold tahoma;
+    padding: 10px 0 0 0;
+}
+
+.menu ul li#services a {
+    display: block;
+    background: black;
+    color: white;
+    font: 15px bold tahoma;
+    padding: 10px 0 0 0;
+}
+
+.menu ul li#portfolıc a {
+    display: block;
+    background: greenyellow;
+    color: purple;
+    font: 15px bold tahoma;
+    padding: 10px 0 0 0;
+}
+
+.menu ul li#contctckt a {
+    display: block;
+    background: green;
+    color: yellow;
+    font: 15px bold tahoma;
+    padding: 10px 0 0 0;
+}
+
+.menu ul li#services a:hover {
+    display: block;
+    background: white;
+    color: black;
+    font: 15px bold tahoma;
+    padding: 10px 0 0 0;
+}
+
+.menu ul li#portfolıc a:hover {
+    display: block;
+    background: purple;
+    color: greenyellow;
+    font: 15px bold tahoma;
+    padding: 10px 0 0 0;
+}
+
+.menu ul li#contctckt a:hover {
+    display: block;
+    background: yellow;
+    color: green;
+    font: 15px bold tahoma;
+    padding: 10px 0 0 0;
+}
+
+.ustic {
+    width: 250px;
+    height: 40px;
+    margin: 0px 510px;
+    font: 20px verdana;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.yazi1 {
+    font: bold 23px verdana;
+}
+
+.yazi2 {
+    font: bold 23px arial;
+    color: #f60;
+}
+
+.yazi3 {
+    font: bold 13px verdana;
+    color: #888;
+}
+
+.yazi4 {
+    font: bold 21px tahoma;
+    color: #c95e4e;
+    text-transform: uppercase;
+}
+
+.altsag a {
+    font: 11px tahoma;
+    color: #ccc;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.altsag a:hover {
+    color: #d36818;
+    text-decoration: underline;
+}
+
+.yazi5 {
+    font: bold 11px verdana;
+    color: #d36818;
+}
